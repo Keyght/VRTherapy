@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class movement : MonoBehaviour
 {
@@ -10,12 +11,26 @@ public class movement : MonoBehaviour
     public GameObject gameObject;
     public GameObject game;
     public Camera camObject;
+    public float rotSpeed = 1;
     public CharacterController character;
     private float distanceToGround;
+    private int circleCount = 0, sphereCount = 0;
+    private int circles = 0, spheres = 0;
 
     void Start()
     {
-        
+        Debug.Log(SceneManager.GetActiveScene().name);
+        if (SceneManager.GetActiveScene().name.Equals("Example_Terrain"))
+        {
+            circles = 8;
+            spheres = 8;
+        }
+        if (SceneManager.GetActiveScene().name.Equals("SceneForPlaneLast"))
+        {
+            circles = 9;
+            spheres = 10;
+        }
+
     }
 
     // Update is called once per frame
@@ -26,7 +41,7 @@ public class movement : MonoBehaviour
         //gameObject.transform.position = new Vector3(transform.position.x + speed * (float)Math.Cos(camObject.transform.localEulerAngles.x * Math.PI/180),
         //transform.position.y + speed * (float)Math.Cos(camObject.transform.localEulerAngles.y * Math.PI / 180), transform.position.z + speed * (float)Math.Cos(camObject.transform.localEulerAngles.z * Math.PI / 180));
  
-        gameObject.transform.Rotate(360 - camObject.transform.localRotation.x, camObject.transform.localRotation.y, 360 - camObject.transform.localRotation.z, Space.Self);
+        gameObject.transform.Rotate(360 - camObject.transform.localRotation.x * rotSpeed, camObject.transform.localRotation.y * rotSpeed, 360 - camObject.transform.localRotation.z * rotSpeed, Space.Self);
         gameObject.transform.Translate(Vector3.back * speed * Time.deltaTime);
 
         RaycastHit hit = new RaycastHit();
@@ -37,7 +52,6 @@ public class movement : MonoBehaviour
         if (Physics.Raycast(transform.position, -Vector3.forward, out hit))
         {
             var distanceToFirst = hit.distance;
-            Debug.Log("Keeeeeeek " + distanceToFirst);
             if (distanceToFirst < 0.3)
             {
                 gameObject.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y, gameObject.transform.position.z+distanceToFirst);
@@ -55,7 +69,19 @@ public class movement : MonoBehaviour
         if (col.gameObject.name.Contains("Sphere"))
         {
             Destroy(col.gameObject);
+            sphereCount++;
         }
+        if (col.gameObject.name.Contains("Circle"))
+        {
+            Destroy(col.gameObject);
+            circleCount++;
+        }
+
+        if(circleCount == circles && sphereCount == spheres)
+        {
+            SceneManager.LoadScene("rpgpp_lt_scene");
+        }
+
     }
     void OnGUI() { 
         
