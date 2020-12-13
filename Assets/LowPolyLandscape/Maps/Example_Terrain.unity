@@ -22398,7 +22398,7 @@ MonoBehaviour:
   gameObject: {fileID: 2028459787}
   game: {fileID: 0}
   camObject: {fileID: 16576964}
-  rotSpeed: 2
+  rotSpeed: 4
   character: {fileID: 2028459790}
 --- !u!64 &2028459789
 MeshCollider:
