@@ -16,6 +16,7 @@ public class movement : MonoBehaviour
     private float distanceToGround;
     private int circleCount = 0, sphereCount = 0;
     private int circles = 0, spheres = 0;
+    public float secundomer;
 
     void Start()
     {
@@ -40,7 +41,11 @@ public class movement : MonoBehaviour
         //gameObject.transform.rotation = new Quaternion(camObject.transform.rotation.z, camObject.transform.rotation.y, camObject.transform.rotation.x, camObject.transform.rotation.w);
         //gameObject.transform.position = new Vector3(transform.position.x + speed * (float)Math.Cos(camObject.transform.localEulerAngles.x * Math.PI/180),
         //transform.position.y + speed * (float)Math.Cos(camObject.transform.localEulerAngles.y * Math.PI / 180), transform.position.z + speed * (float)Math.Cos(camObject.transform.localEulerAngles.z * Math.PI / 180));
- 
+
+        secundomer += Time.deltaTime;
+
+        Debug.Log("Time: " + secundomer);
+
         gameObject.transform.Rotate(360 - camObject.transform.localRotation.x * rotSpeed, camObject.transform.localRotation.y * rotSpeed, 360 - camObject.transform.localRotation.z * rotSpeed, Space.Self);
         gameObject.transform.Translate(Vector3.back * speed * Time.deltaTime);
 
@@ -83,7 +88,9 @@ public class movement : MonoBehaviour
         }
 
     }
-    void OnGUI() { 
-        
+    void OnGUI()
+    {
+        GUI.contentColor = Color.black;
+        GUI.Label(new Rect(0,0,0,0), "Time: "+ secundomer);
     }
 }
