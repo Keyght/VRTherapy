@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 4276324180339636}
   - component: {fileID: 33491677292423316}
   - component: {fileID: 23905449073395398}
-  - component: {fileID: 7887617605173780801}
   m_Layer: 0
   m_Name: rpgpp_lt_flower_01
   m_TagString: Untagged
@@ -79,16 +78,3 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &7887617605173780801
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1046453777464574}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1.2106802, y: 1.0435932, z: 1.1155157}
-  m_Center: {x: 0.072722614, y: 0.52170324, z: 0.0066260397}
