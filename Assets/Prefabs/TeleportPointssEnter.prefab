@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6748621270176654802}
   - component: {fileID: 8728079290597932568}
   m_Layer: 5
-  m_Name: TeleportPointss 1 (2)
+  m_Name: TeleportPointssEnter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29,7 +29,7 @@ RectTransform:
   m_GameObject: {fileID: 1271060989579793293}
   m_LocalRotation: {x: -0.63567585, y: -0.30970356, z: -0.30970356, w: 0.63567585}
   m_LocalPosition: {x: 0, y: 0, z: 60.94}
-  m_LocalScale: {x: 0.04063563, y: 0.04063563, z: 0.04063563}
+  m_LocalScale: {x: 0.04063563, y: 0.04063563, z: 0.071922}
   m_Children:
   - {fileID: 3533398612445618601}
   - {fileID: 6230906028304724357}
