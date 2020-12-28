@@ -5,7 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VRTherapy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VRTherapy/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/LowPolyLandscape/Maps/Example_Terrain.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LowPolyLandscape/Maps/Example_Terrain.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Kek/movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Kek/movement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SceneForPlaneLast.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SceneForPlaneLast.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Environment/Water/Water4/Materials/Water4Advanced.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Environment/Water/Water4/Materials/Water4Advanced.mat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +18,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Assets/Scenes/CameraFix.cs" />
         <option value="$PROJECT_DIR$/Assets/Scenes/Kek/movement.cs" />
       </list>
     </option>
@@ -70,6 +71,7 @@
       <workItem from="1607956027302" duration="11452000" />
       <workItem from="1608036464974" duration="758000" />
       <workItem from="1608044320231" duration="7107000" />
+      <workItem from="1609182880795" duration="2985000" />
     </task>
     <servers />
   </component>

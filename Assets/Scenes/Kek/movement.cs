@@ -40,7 +40,7 @@ public class movement : MonoBehaviour
 
         if (SceneManager.GetActiveScene().name.Equals("Example_Terrain"))
         {
-            circles = 8;
+            circles = 9;
             spheres = 8;
         }
         if (SceneManager.GetActiveScene().name.Equals("SceneForPlaneLast"))
@@ -48,7 +48,7 @@ public class movement : MonoBehaviour
             circles = 9;
             spheres = 10;
         }
-
+        GvrCardboardHelpers.Recenter();
     }
 
     // Update is called once per frame
