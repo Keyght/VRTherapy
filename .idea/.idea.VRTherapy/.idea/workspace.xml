@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dd647dbb-7fd5-44c7-9f9e-f906dcea3ce1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VRTherapy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VRTherapy/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LowPolyLandscape/Maps/Example_Terrain.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LowPolyLandscape/Maps/Example_Terrain.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Kek/movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Kek/movement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Standard Assets/Environment/Water/Water4/Materials/Water4Advanced.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Standard Assets/Environment/Water/Water4/Materials/Water4Advanced.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +69,7 @@
       <workItem from="1607956027302" duration="11452000" />
       <workItem from="1608036464974" duration="758000" />
       <workItem from="1608044320231" duration="7107000" />
-      <workItem from="1609182880795" duration="2985000" />
+      <workItem from="1609182880795" duration="3876000" />
     </task>
     <servers />
   </component>
