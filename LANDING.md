@@ -11,10 +11,10 @@ VRTherapy - Приложение для релаксации в VR со множ
 
 ---
 # Images
-* ![](https://files.rtuitlab.ru/landing_src/vrtherapy/screenshot1.png)
-* ![](https://files.rtuitlab.ru/landing_src/vrtherapy/screenshot2.png)
-* ![](https://files.rtuitlab.ru/landing_src/vrtherapy/screenshot3.png)
-* ![](https://files.rtuitlab.ru/landing_src/vrtherapy/screenshot4.png)
+* ![](LANDING/screenshot1.png)
+* ![](LANDING/screenshot2.png)
+* ![](LANDING/screenshot3.png)
+* ![](LANDING/screenshot4.png)
 
 ---
 # Videos
