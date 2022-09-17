@@ -22,7 +22,7 @@ See more about this minigame in our demo video.
 ### Relaxation levels
 Relaxation levels is just beautiful scenes of nature landscapes with some interactions. 
 
-| <img src="/LANDING/forest.jpg" width=280 />  | <img src="/LANDING/location_beach.jpg" width=280 /> | <img src="/LANDING/fire.jpg" width=280 /> |
+| <img src="/LANDING/forest.jpg" width=250 />  | <img src="/LANDING/location_beach.jpg" width=250 /> | <img src="/LANDING/fire.jpg" width=250 /> |
 
 For example, it can be night forest location with dark starry sky and warm campfire near you. You sit on a log, looking at fire or stars and hear quiet sound of a fire and chirping of crickets. Sounds relaxing, isn’t it?
 
