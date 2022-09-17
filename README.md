@@ -7,20 +7,23 @@
 ### Intro
 Our application, VRTherapy is a complex mobile VR experience, which combines interactive minigames and beautiful nature landscapes for relaxation in virtual reality. All locations accompanied by calm music and restful ambient sounds.
 
-![alt text](https://i.imgur.com/Surk8u5.png "Hub level screenshot")
+<img src="/LANDING/hub.jpg" width=700 />
+
 Application starts at hub level, where player can select level what he/she want to visit. As said, it can be one of minigames or relaxation levels.
 
 ### Minigames
 At this time, we have one mediative minigame – simple VR plane sim, where player controls paper plane with head movements.
  
-![alt text](https://i.imgur.com/NSn6ASs.png "Plane sim screenshot")
+| <img src="/LANDING/plane.jpg" width=400 /> | <img src="/LANDING/plane2.jpg" width=400 /> |
+
 Flying around beautiful nature landscape under restful accompaniment is very relaxing, so, as planned, this game will reduce anxiety and therefore pain.
 See more about this minigame in our demo video.
 
 ### Relaxation levels
 Relaxation levels is just beautiful scenes of nature landscapes with some interactions. 
 
-![alt text](https://i.imgur.com/LGCOV6G.png "Relaxation level screenshot")
+| <img src="/LANDING/forest.jpg" width=300 /> | <img src="/LANDING/location_beach.jpg" width=300 /> |<img src="/LANDING/fire.jpg" width=300 /> |
+
 For example, it can be night forest location with dark starry sky and warm campfire near you. You sit on a log, looking at fire or stars and hear quiet sound of a fire and chirping of crickets. Sounds relaxing, isn’t it?
 
 
