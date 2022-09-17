@@ -51,3 +51,9 @@ The better the immersion is in the gaming setup, the better the pain relief. And
 
 ### Technical side
 Our project is based on popular game engine Unity. All code written on C# with using of Unity standard libraries. All levels and models made in 3DSMax and Blender.
+
+## Developers
+* Novakov N.Y.
+* Bakanova M.V.
+* Matchin A.S.
+* Levandrovsky A.M.
