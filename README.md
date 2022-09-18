@@ -2,8 +2,6 @@
 ### Links:
 [Watch demo](https://youtu.be/d7GzPjsCER0)
 
-[Get APK and presentation](https://vk.com/away.php?utf=1&to=https%3A%2F%2Fdrive.google.com%2Fdrive%2Ffolders%2F1pDmS_lej1Kj83PiR3bgp4s9GmKJIP__0%3Fusp%3Dsharing)
-
 [Download from PlayMarket](https://play.google.com/store/apps/details?id=com.RTUITLab.VRTherapy&hl=en_NZ&gl=US)
 
 ### Intro
